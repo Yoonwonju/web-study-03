@@ -7,9 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-당신은 ${name}이고, ${gender }<br>
-좋아하는 계절은 ${season } 입니다.
 
-<a href='javascript:history.go(-1)'>이전 페이지로...</a>
 </body>
 </html>
