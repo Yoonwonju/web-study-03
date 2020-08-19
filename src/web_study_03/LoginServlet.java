@@ -29,7 +29,6 @@ public class LoginServlet extends HttpServlet {
 		String name ="성윤정";
 		
 		request.setCharacterEncoding("UTF-8");
-
 		
 		if(id.equals(request.getParameter("id")) &&
 				pwd.equals(request.getParameter("pwd"))){

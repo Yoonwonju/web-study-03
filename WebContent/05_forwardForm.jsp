@@ -1,5 +1,3 @@
-<%@ page import="java.net.URLEncoder" %>
-
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -9,9 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%= request.getParameter("name") %>님 안녕하세요!
-<br>
-저희 홈페이지에 방문해 주셔서 감사합니다.<br>
-즐거운 시간 되세요....<br>
+입장하려면 나이를 입력하세요. <br>
+<form action = "ForwardTestServlet">
+	<input type = "text" name = "age">
+	<input type ="submit" value = "입장">
+</form>
 </body>
 </html>
