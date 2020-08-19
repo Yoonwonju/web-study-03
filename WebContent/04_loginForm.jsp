@@ -7,11 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<<<<<<< HEAD
-	<form method = "get" action = "testLogin.jsp">
-=======
+
+	<!-- <form method = "get" action = "testLogin.jsp"> -->
+
 	<form method = "get" action = "LoginServlet">
->>>>>>> refs/heads/hotfix_login
 		<label for = "userid"> 아이디 : </label>
 		<input type = "text" name = "id" id = "userid"><br>
 		
